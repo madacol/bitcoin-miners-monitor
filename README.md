@@ -3,13 +3,13 @@ Python scripts that ran in a *Raspberry Pi* to monitor bitcoin miners (Antminer 
 
 # Scripts tasks
 
-- Gathered following indicators through the **cgminer's HTTP API**:
+- Gather following indicators through the **cgminer's HTTP API**:
   - HashRate
   - temperatures
   - active pool
   - chain asics health status
 - Analyse and mailed any unusual activity using Linux's `exim4` mailer.
-- Sent data to **Google Forms**
+- Send data to **Google Forms**
 
 ### Data example:
     # timestamp, ip's last byte, temp1, temp2, hashrate, active pool, chain asics health status
